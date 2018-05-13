@@ -9,7 +9,7 @@ public class ViewStack {
     public static void init(){
         views=new HashMap<>();
     }
-    
+
     public static void addView(String tag,JFrame frame){
         views.put(tag,frame);
     }
