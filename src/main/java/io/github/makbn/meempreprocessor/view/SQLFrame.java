@@ -8,7 +8,6 @@ import io.github.makbn.meempreprocessor.ViewStack;
 
 import javax.swing.*;
 import java.awt.*;
-import java.sql.SQLException;
 
 public class SQLFrame extends BaseFrame {
     private String RUNNING_PATH_PARENT;
@@ -18,22 +17,6 @@ public class SQLFrame extends BaseFrame {
         this.RUNNING_PATH_PARENT=runningPath;
         this.eventListener=listener;
     }
-
-    public SQLFrame(GraphicsConfiguration gc) {
-        super(gc);
-
-    }
-
-    public SQLFrame(String title) throws HeadlessException {
-        super(title);
-
-    }
-
-    public SQLFrame(String title, GraphicsConfiguration gc) {
-        super(title, gc);
-
-    }
-
 
     @Override
     protected void init() {

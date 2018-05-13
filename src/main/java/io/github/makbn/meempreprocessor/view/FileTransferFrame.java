@@ -18,18 +18,6 @@ public class FileTransferFrame extends BaseFrame {
         this.eventListener=eventListener;
     }
 
-    public FileTransferFrame(GraphicsConfiguration gc) {
-        super(gc);
-    }
-
-    public FileTransferFrame(String title) throws HeadlessException {
-        super(title);
-    }
-
-    public FileTransferFrame(String title, GraphicsConfiguration gc) {
-        super(title, gc);
-    }
-
     @Override
     protected void init() {
         File[] vertexFile=new File[1];

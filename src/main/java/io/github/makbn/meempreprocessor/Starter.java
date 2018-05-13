@@ -1,16 +1,9 @@
 package io.github.makbn.meempreprocessor;
-
-import apple.laf.AquaLookAndFeel;
-import com.sun.java.swing.plaf.gtk.GTKLookAndFeel;
-import com.sun.java.swing.plaf.windows.WindowsLookAndFeel;
 import io.github.makbn.meemlocationgraph.LocationGraph;
 import io.github.makbn.meempreprocessor.view.FileTransferFrame;
 import io.github.makbn.meempreprocessor.view.MainFrame;
 import io.github.makbn.meempreprocessor.view.SQLFrame;
-import mdlaf.MaterialLookAndFeel;
-
 import javax.swing.*;
-import javax.swing.plaf.metal.MetalLookAndFeel;
 import javax.swing.plaf.nimbus.NimbusLookAndFeel;
 import java.io.File;
 import java.net.URISyntaxException;
@@ -18,7 +11,6 @@ import java.net.URISyntaxException;
 
 class Starter {
 
-    public static JFrame main;
     private static String RUNNING_PATH;
     private static String RUNNING_PATH_PARENT;
     private static StarterEventListener eventListener;
